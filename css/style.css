@@ -30,11 +30,30 @@ h1 {
 
 .setting .child {
     position: relative;
-    width: 80%;
-    height: 100px;
+    width: auto;
+    height: auto;
     margin: 25px 10%;
     border: 1px solid white;
     border-radius: 10% 10%;
+    text-align: center;
+}
+.setting .child p {
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+}
+.setting .button p {
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+.setting .location input {
+    width: 50%;
+}
+.setting .speed p {
+    margin: 10%;
+}
+.setting .speed input {
+    width: 50%;
 }
 
 .playground {

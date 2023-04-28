@@ -11,10 +11,23 @@
     <h1>Juho</h1>
     <div class="container" id="container">
         <div class="setting">
-            <div class="speed child"></div>
-            <div class="direction child"></div>
-            <div class="button child"></div>
-            <div class="location child"></div>
+            <div class="speed child">
+                <p>Speed</p>
+                <input type="range">
+            </div>
+            <div class="direction child button">
+                <p>Direction</p>
+            </div>
+            <div class="location child">
+                <p>Location</p><br>
+                <p>X: </p>
+                <input type="number" step="0.001"><br>
+                <p>Y: </p>
+                <input type="number" step="0.001">
+            </div>
+            <div class="button child">
+                <p>Start</p>
+            </div>
         </div>
         <div class="playground">
             <div class="circle" id="circle"></div>
